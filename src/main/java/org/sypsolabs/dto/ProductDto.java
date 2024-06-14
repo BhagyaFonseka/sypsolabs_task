@@ -1,4 +1,4 @@
 package org.sypsolabs.dto;
 
-public class Product {
+public class ProductDto {
 }
