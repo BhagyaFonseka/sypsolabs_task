@@ -11,6 +11,8 @@ import org.sypsolabs.service.ProductService;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Optional;
+
 @Service
 @RequiredArgsConstructor
 public class ProductServiceImpl implements ProductService {
@@ -50,7 +52,8 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public Product getProductById(Long Id) {
-        return null;
+    public Product getProductById(Long id) {
+        Optional<ProductEntity> productEntityOptional = repository.findById(id);
+        return mapper.map(productEntityOptional, Product.class);
     }
 }

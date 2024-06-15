@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfb9f717-558f-492f-82c9-a95179556dfd" name="Changes" comment="product getall method complete">
+    <list default="true" id="dfb9f717-558f-492f-82c9-a95179556dfd" name="Changes" comment="product delete method complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sypsolabs/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sypsolabs/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sypsolabs/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sypsolabs/service/impl/ProductServiceImpl.java" afterDir="false" />
@@ -96,7 +96,7 @@
       <workItem from="1718343274391" duration="1447000" />
       <workItem from="1718345312538" duration="2204000" />
       <workItem from="1718362847388" duration="270000" />
-      <workItem from="1718373592161" duration="11081000" />
+      <workItem from="1718373592161" duration="12162000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -138,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718473608454</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="product delete method complete">
+      <option name="closed" value="true" />
+      <created>1718475050977</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718475050977</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +168,7 @@
     <MESSAGE value="complete architecture" />
     <MESSAGE value="product create method complete" />
     <MESSAGE value="product getall method complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="product getall method complete" />
+    <MESSAGE value="product delete method complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="product delete method complete" />
   </component>
 </project>
