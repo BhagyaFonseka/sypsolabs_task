@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface ProductService {
     void addProduct(Product product);
-    List<ProductEntity> getProduct();
+    List<Product> getProduct();
     Boolean deleteProduct(Long Id);
 
     Product getProductById(Long Id);

@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfb9f717-558f-492f-82c9-a95179556dfd" name="Changes" comment="complete architecture">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sypsolabs/dto/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sypsolabs/entity/ProductEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="dfb9f717-558f-492f-82c9-a95179556dfd" name="Changes" comment="product create method complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sypsolabs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sypsolabs/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sypsolabs/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sypsolabs/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sypsolabs/dto/ProductDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sypsolabs/entity/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sypsolabs/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sypsolabs/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sypsolabs/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sypsolabs/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sypsolabs/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sypsolabs/service/impl/ProductServiceImpl.java" afterDir="false" />
     </list>
@@ -105,7 +97,7 @@
       <workItem from="1718343274391" duration="1447000" />
       <workItem from="1718345312538" duration="2204000" />
       <workItem from="1718362847388" duration="270000" />
-      <workItem from="1718373592161" duration="7311000" />
+      <workItem from="1718373592161" duration="9605000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -131,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718346751144</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="product create method complete">
+      <option name="closed" value="true" />
+      <created>1718470975530</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718470975530</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="complete architecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete architecture" />
+    <MESSAGE value="product create method complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="product create method complete" />
   </component>
 </project>

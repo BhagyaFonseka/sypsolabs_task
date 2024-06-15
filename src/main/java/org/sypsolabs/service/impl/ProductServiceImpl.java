@@ -8,6 +8,8 @@ import org.sypsolabs.entity.ProductEntity;
 import org.sypsolabs.repository.ProductRepository;
 import org.sypsolabs.service.ProductService;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 @Service
 @RequiredArgsConstructor
@@ -24,8 +26,16 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public List<ProductEntity> getProduct() {
-        return null;
+    public List<Product> getProduct() {
+        List<Product> list = new ArrayList<>();
+        Iterable<ProductEntity> iterable = repository.findAll();
+        Iterator<ProductEntity> iterator = iterable.iterator();
+        while (iterator.hasNext()){
+            ProductEntity productEntity = iterator.next();
+            Product product = mapper.map(productEntity, Product.class);
+            list.add(product);
+        }
+        return list;
     }
 
     @Override
