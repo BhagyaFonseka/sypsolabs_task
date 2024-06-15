@@ -1,5 +1,8 @@
 package org.sypsolabs.repository;
 
-public interface ProductRepository {
+import org.springframework.data.repository.CrudRepository;
+import org.sypsolabs.entity.ProductEntity;
+
+public interface ProductRepository extends CrudRepository<ProductEntity, Long> {
 
 }
