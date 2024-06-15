@@ -1,5 +1,6 @@
 package org.sypsolabs.controller;
 
+import jakarta.persistence.Id;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import org.sypsolabs.dto.Product;
@@ -23,5 +24,10 @@ public class ProductController {
     public List<Product> getAll(){
         return productService.getProduct();
 
+    }
+
+    @DeleteMapping("/{Id}")
+    public void deleteProduct(@PathVariable long Id){
+        productService.deleteProduct(Id);
     }
 }
